@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QlsdJq9lXpTPE12DoUpLT7frb0IS+pybnCXK/sc3hHvyd13WAAjfxW0ucRlvS1AXj1onKoWSgHgDnpPUmcwY5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marce\\source\\repos\\Bank\\Bank.Application\\Bank.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
