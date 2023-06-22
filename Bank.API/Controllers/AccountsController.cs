@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Bank.API.Models;
+﻿using Bank.API.Models;
 using Bank.API.Repositories;
 using Microsoft.AspNetCore.Mvc;
 

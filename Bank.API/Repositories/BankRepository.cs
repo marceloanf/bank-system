@@ -19,7 +19,7 @@ public class BankRepository : IBankRepository
 
     public User GetUserById(int userId)
     {
-        return _context.Users.FirstOrDefault(u => u.Id == userId);
+        return _context.Users.FirstOrDefault(u => u.Id == userId) ?? throw new InvalidOperationException();
     }
 
     public IEnumerable<Account> GetAccountsByUserId(int userId)
@@ -29,7 +29,7 @@ public class BankRepository : IBankRepository
 
     public Account GetAccountById(int accountId)
     {
-        return _context.Accounts.FirstOrDefault(a => a.Id == accountId);
+        return _context.Accounts.FirstOrDefault(a => a.Id == accountId) ?? throw new InvalidOperationException();
     }
 
     public void CreateUser(User user)

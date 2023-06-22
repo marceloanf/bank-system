@@ -38,11 +38,6 @@ namespace Bank.API.Controllers
         [HttpPost]
         public ActionResult<User> CreateUser([FromBody] User user)
         {
-            if (user.Accounts == null)
-            {
-                user.Accounts = new List<Account>();
-            }
-
             _repository.CreateUser(user);
             _repository.SaveChanges();
 
